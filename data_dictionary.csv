@@ -1,0 +1,14 @@
+Column Name,Data Type,Description
+CustomerID,object,Unique customer identifier
+Gender,object,Customer gender
+SeniorCitizen,int64,"Senior citizen indicator (1 = Yes, 0 = No)"
+Tenure,int32,Number of months customer has stayed
+MonthlyCharges,float64,Monthly subscription charges
+ContractType,object,Type of contract
+PaymentMethod,object,Payment method used
+InternetService,object,Internet service type
+TechSupport,int64,Availability of technical support
+StreamingServices,int64,Use of streaming services
+ComplaintsCount,int32,Number of customer complaints
+TotalCharges,float64,Total amount billed to customer
+Churn,int64,Churn flag (Target Variable)
